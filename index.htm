@@ -1,0 +1,233 @@
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!--- <link rel="stylesheet" href="css/main.css"> --->
+<title>Ic3 Online Quiz</title>
+<style>
+body{background-color: #FFF;}
+.container{
+	margin: auto;
+	padding-top :1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	position-top ;
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) 
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) 
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) 
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+}
+.upper-bar{
+	background-color:#a5272b;
+	color:#FFF;
+	padding:10px;
+}
+.qheader{
+text-align: right;
+font:bold 18px Arial;
+}
+
+.qselections{
+background-color:#669999;
+text-align: right;
+font:bold 15px Arial;
+}
+</style>
+
+<script src="quizconfig.js">
+</script>
+
+<script>
+var actualchoices=new Array()
+document.cookie="ready=yes"
+</script>
+
+</head>
+
+<body >
+<!--Comments on configuring quiz script-->
+<p align="center">
+
+<form method="POST" name="myquiz">
+<!--container -->
+<div  class="container">
+<div class="upper-bar">
+  <div class="row">
+    <div class="col-lg" style="clear:both">
+	<img src="logo.jpg" alt="Opec Acadamy" align="LEFT" height="70 px">
+	<h3 style="float:LEFT" >Opec Acadamy </h3> <h3 style="float:right"> IC3 QUIZ </h3>
+	</div>
+	 </div>
+	   </div>
+<div class="qheader">
+س1)  اى من هذه الوحدات ليست وحده ادخال؟</div>
+<div class="qselections">
+<br>
+keyboard<input type="radio" value="a" name="question1"><br>
+mouse<input type="radio" value="b" name="question1"><br>
+disblay<input type="radio" value="c" name="question1"><br>
+mic<input type="radio" value="d" name="question1"><br>
+</div>
+<div class="qheader">
+س2)  أى من هذه الوحدات ليست وحده أخراج؟</div>
+<div class="qselections">
+TouchPad<input type="radio" value="a" name="question2"><br>
+Speakers<input type="radio" value="b" name="question2"><br>
+Printer<input type="radio" value="c" name="question2"><br>
+data show<input type="radio" value="d" name="question2"><br>
+</div>
+<div class="qheader">
+س3) أى من هذه المكونات ليس جزء من مكونات وحده المعالجه المركزه؟</div>
+<div class="qselections">
+CU<input type="radio" value="a" name="question3"><br>
+ALU<input type="radio" value="b" name="question3"><br>
+CLU<input type="radio" value="c" name="question3"><br>
+Cash Memory<input type="radio" value="d" name="question3"><br>
+</div>
+<div class="qheader">
+س4) وحده التخزين الاساسيه فى الحاسب الالى؟</div>
+<div class="qselections">
+FLOPPY DISK<input type="radio" value="a" name="question4"><br>
+DVD<input type="radio" value="b" name="question4"><br>
+HDD<input type="radio" value="c" name="question4"><br>
+JAZZ DISK<input type="radio" value="d" name="question4"><br>
+</div>
+<div class="qheader">
+س5)  مم تتكون البايت؟</div>
+<div class="qselections">
+2-BIT<input type="radio" value="a" name="question5"><br>
+4-BIT<input type="radio" value="b" name="question5"><br>
+8-BIT<input type="radio" value="c" name="question5"><br>
+16-BIT<input type="radio" value="d" name="question5"><br>
+</div>
+<div class="qheader">
+س6)  ليس نوع من انواع الحاسب الالى؟</div>
+<div class="qselections">
+LAPTOP<input type="radio" value="a" name="question6"><br>
+MAIN FRAME<input type="radio" value="b" name="question6"><br>
+EXTRA COMPUTER<input type="radio" value="c" name="question6"><br>
+PERSONAL COMPUTER<input type="radio" value="d" name="question6"><br>
+</div>
+<div class="qheader">
+س7) بأى وحده تقاس سرعه المعالج؟</div>
+<div class="qselections">
+gigabyte<input type="radio" value="a" name="question7"><br>
+GHZ<input type="radio" value="b" name="question7"><br>
+megabyte<input type="radio" value="c" name="question7"><br>
+kilobyte<input type="radio" value="d" name="question7"><br>
+</div>
+<div class="qheader">
+س8)  لزياده عدد البرامج اللتى يتعامل معها المستخدم فى وقت واحد ,ما الذى يجب فعله؟</div>
+<div class="qselections">
+تغيير المعالج ألى اخر اقوى<input type="radio" value="a" name="question8"><br>
+زياده مساحه ذاكره الوصول العشوائى<input type="radio" value="b" name="question8"><br>
+زياده مساحه القرص الصلب<input type="radio" value="c" name="question8"><br>
+زياده مساحه الذاكره المخبؤه<input type="radio" value="d" name="question8"><br>
+</div>
+<div class="qheader">
+س9)  ما هى مساحه القرص المرن؟</div>
+<div class="qselections">
+144 MegaByte<input type="radio" value="a" name="question9"><br>
+14.4 MegaByte<input type="radio" value="b" name="question9"><br>
+1.44 MegaByte<input type="radio" value="c" name="question9"><br>
+14.4 KiloByte<input type="radio" value="d" name="question9"><br>
+</div>
+<div class="qheader">
+س10)  المنفذ المسؤول عن توصيل الطابعه بالحاسب؟</div>
+<div class="qselections">
+LTP1<input type="radio" value="a" name="question10"><br>
+LPT1<input type="radio" value="b" name="question10"><br>
+LAN<input type="radio" value="c" name="question10"><br>
+VGA<input type="radio" value="d" name="question10"> <br>
+</div>
+<div class="qheader">
+س11) المنفذ المسؤول عن توصيل الشاشه؟</div>
+<div class="qselections">
+LTP1<input type="radio" value="a" name="question11"><br>
+PS/2<input type="radio" value="b" name="question11"><br>
+LAN<input type="radio" value="c" name="question11"><br>
+VGA<input type="radio" value="d" name="question11"> <br>
+</div><div class="qheader">
+س12) التيرابايت تساوى كم ميجابايت؟</div>
+<div class="qselections">
+1024 x 1024 <input type="radio" value="a" name="question12"><br>
+1024<input type="radio" value="b" name="question12"><br>
+1024 x 1000<input type="radio" value="c" name="question12"><br>
+1000 x 1000 <input type="radio" value="d" name="question12"><br>
+</div><div class="qheader">
+س13) نوع الذاكره الاسرع فى نقل البيانات؟</div>
+<div class="qselections">
+cache memory<input type="radio" value="a" name="question13"><br>
+main memory (RAM) <input type="radio" value="b" name="question13"><br>
+ROM<input type="radio" value="c" name="question13"><br>
+BIOS<input type="radio" value="d" name="question13"><br>
+</div><div class="qheader">
+س14) من اشهر برامج معالجه الكلمات؟</div>
+<div class="qselections">
+MS Access<input type="radio" value="a" name="question14"><br>
+MS Word<input type="radio" value="b" name="question14"><br>
+AutoCad<input type="radio" value="c" name="question14"><br>
+AVG<input type="radio" value="d" name="question14"><br>
+</div><div class="qheader">
+س15) من البرامج الملحقه؟</div>
+<div class="qselections">
+Photoshop<input type="radio" value="a" name="question15"><br>
+pdf reader<input type="radio" value="b" name="question15"><br>
+Paint<input type="radio" value="c" name="question15"><br>
+MS PowerPoint<input type="radio" value="d" name="question15"> <br>
+</div><div class="qheader">
+س16) ليس من برامج مضادات الفيروسات ؟</div>
+<div class="qselections">
+NORTON<input type="radio" value="a" name="question16"><br>
+AVIRA<input type="radio" value="b" name="question16"><br>
+AVG<input type="radio" value="c" name="question16"><br>
+VIRUS KILLER <input type="radio" value="d" name="question16"> <br>
+</div><div class="qheader">
+س17) ليس نوع من انواع فيروسات الملفات؟</div>
+<div class="qselections">
+TROJAN<input type="radio" value="a" name="question17"><br>
+MalWare<input type="radio" value="b" name="question17"><br>
+ADware<input type="radio" value="c" name="question17"><br>
+SPYWARE<input type="radio" value="d" name="question17"> <br>
+</div><div class="qheader">
+س18) نظام التشغيل الاكثر حمايه  للبيانات؟</div>
+<div class="qselections">
+WINDOWS<input type="radio" value="a" name="question18"><br>
+LINUX/UNIX<input type="radio" value="b" name="question18"><br>
+MAC OS<input type="radio" value="c" name="question18"><br>
+SOLARIS<input type="radio" value="d" name="question18"><br>
+</div><div class="qheader">
+س19) اين يتم حفظ اعدادات اوامر الادخال والاخراج الأساسيه؟</div>
+<div class="qselections">
+MAIN MEMORY<input type="radio" value="a" name="question19"><br>
+CACHE MEMORY<input type="radio" value="b" name="question19"><br>
+CIMOS BATTARY<input type="radio" value="c" name="question19"><br>
+HARD DISK<input type="radio" value="d" name="question19"> <br>
+</div><div class="qheader">
+س20) اى من هذه البرامج ليس من البرامج  الملحقه؟</div>
+<div class="qselections">
+calculator<input type="radio" value="a" name="question20"><br>
+paint<input type="radio" value="b" name="question20"><br>
+windows media player<input type="radio" value="c" name="question20"><br>
+avira<input type="radio" value="d" name="question20"> <br>
+</div>
+</div>
+</form>
+
+<form>
+<div align="center">
+<input type="button" class="btn btn-success" value="أظهار النتيجه " name="B1" onClick="gradeit()"> <input type="button"class="btn btn-danger" value="محو الاختيارات" name="B2" onClick="document.myquiz.reset()"></div>
+<br>
+</form>
+
+</body>
+</html>
