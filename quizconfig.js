@@ -24,7 +24,7 @@ correctchoices[17]='d'
 correctchoices[18]='b'
 correctchoices[19]='c'
 correctchoices[20]='d'
-correctchoices[21]='a'
+correctchoices[21]='b'
 /////Don't edit beyond here//////////////////////////
 
 function gradeit(){
