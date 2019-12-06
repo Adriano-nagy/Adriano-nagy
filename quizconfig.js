@@ -1,6 +1,6 @@
 
 //Enter total number of questions:
-var totalquestions=20
+var totalquestions=21
 
 //Enter the solutions corresponding to each question:
 var correctchoices=new Array()
